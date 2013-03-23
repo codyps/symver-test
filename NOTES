@@ -1,0 +1,14 @@
+
+
+case 1:
+	- symvers on every symbol with multiple versions
+	- list a sym in the version-script for each version it changes
+	- use different names from the targeted symbol for each defined symbol.
+
+case 2:
+	- symvers on old symbols with multiple versions
+	- list a sym in the version-script only for the latest version which changed it.
+	- list the latest version of the symbol named for the symbol it self
+
+Neither case 1 or 2 produce an unversioned symbol.
+

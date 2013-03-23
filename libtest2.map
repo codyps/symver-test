@@ -1,8 +1,6 @@
 
 
 VER_0 {
-	global: test;
-	local:	*;
 };
 
 VER_1 {
