@@ -1,0 +1,6 @@
+VER_0 {
+	global:
+		test1;
+	local:
+		*;
+};
